@@ -1,0 +1,49 @@
+COP 5615 
+Distributed Operating Systems (Fall 2015)
+Project 2 - Gossip Simulator
+
+Group Members – Gokul Palwe (0119-6899) and Sahil Pratap(9998-4988)
+
+The Gossip and Push-Sum algorithms have been implemented for line, full, 3D and imperfect 3D 
+In Gossip Algorithm, each actor keeps track of how many times it has heard the rumor. An actor 
+terminates when it has received the rumor 10 times. In case of Push-Sum Algorithm, if an actor’s ratio 
+s/w did not change more than 10^10 in 3 consecutive rounds the actor terminates. When an actor 
+terminates, all its neighbors remove the actor from their neighbor list and continue with the remaining 
+Largest Network we were able to propagate through using Gossip Algorithm
+Topology Largest Number of Nodes 
+Line     1000 
+Full     1000 
+3D       1000 
+Imp 3D   1000 
+
+Largest Network we were able to propagate through using Push-Sum Algorithm
+Topology Largest Number of Nodes 
+Line     1000 
+Full     1000 
+3D       1000 
+Imp 3D   1000
+
+
+HOW TO RUN?
+======================================================================================================
+
+GossipSimulator contains files from IntelliJ Idea 13. 
+Project can be run in sbt directly or import project as SBT project in eclipse or IntelliJ IDEA.
+
+To run inside sbt command line use
+
+run <NUM_NODES> <topology> <algorithm>
+
+	NUM_NODES: Integer values indicating number of nodes in the topology. For 3D and imp3D number of
+	           nodes will be rounded up to nearest perfect cube.
+
+	topology:  topology takes 4 values(case sensative).
+			1. line
+			2. full
+			3. 3D
+			4. imp3D
+
+	algorithm: Algorithm takes 2 unique values.
+			1. gossip
+			2. push-sum
+

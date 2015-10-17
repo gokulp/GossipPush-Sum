@@ -1,0 +1,97 @@
+compile
+run 10 gossip line
+compile
+run 10 line gossip
+compile
+run 10 line gossip
+compile
+run 10 line gossip
+compile
+run 10 line gossip
+run 10 full gossip
+run 10 3D gossip
+run 100 3D gossip
+run 100 full gossip
+run 1000 full gossip
+run 10 full gossip
+run 10 line gossip
+run 100 full gossip
+run 1000 full gossip
+run 27 3D gossip
+run 27 full gossip
+run 27 line gossip
+run 27 3D gossip
+run 27 imp3D gossip
+run 1000 imp3D gossip
+run 1000 3D gossip
+run 1000 full gossip
+run 1000 line gossip
+run 10000 line gossip
+run 100 line gossip
+run 27 full gossip
+run 100 full gossip
+run 1000 full gossip
+run 10000 full gossip
+run 27 3D gossip
+run 125 3D gossip
+run 1000 3D gossip
+run 10000 3D gossip
+run 100000 3D gossip
+run 27 imp3D gossip
+run 125 imp3D gossip
+run 1000 imp3D gossip
+run 10000 imp3D gossip
+run 27 imp3D push-sum
+run 10 3D push-sum
+run 10 3D gossip
+run 10 3D push-sum
+run 10 imp3D push-sum
+run 100 imp3D push-sum
+run 1000 imp3D push-sum
+run 27 line push-sum
+run 125 line push-sum
+run 1000 line push-sum
+run 10000 line push-sum
+run 10 full push-sum
+run 27 full push-sum
+run 125 full push-sum
+run 1000 full push-sum
+run 27 full push-sum
+run 125 full push-sum
+run 1000 full push-sum
+compile
+run 10 full gossip
+run 10 full push-sum
+run 27 3D push-sum
+run 27 imp3D push-sum
+run 70 full push-sum
+run 100 3D push-sum
+run 70 line push-sum
+run 10 line push-sum
+run 10 3D push-sum
+run 100 3D push-sum
+exit
+run 1000 imp3D push-sum
+run 1000 3D push-sum
+run 1000 imp3D push-sum
+run 27 line push-sum
+run 125 line push-sum
+run 125 full push-sum
+run 1000 full push-sum
+compile
+run 10 line push-sum
+run 100 line push-sum
+run 1000 line push-sum
+run 1000 full push-sum
+run 100 full push-sum
+run 125 full push-sum
+run 27 full push-sum
+run 27 3D push-sum
+run 27 imp3D push-sum
+run 125 imp3D push-sum
+run 1000 imp3D push-sum
+run 1000 full push-sum
+run 1000 3D push-sum
+run 1000 imp3D push-sum
+run 1000 full push-sum
+exit
